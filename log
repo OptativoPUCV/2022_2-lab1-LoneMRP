@@ -627,3 +627,9 @@ exercises.c:116:11: error: wrong type argument to unary plus
       |           ^
 Compilation failed
 a212b54
+Sun 14 Aug 2022 03:35:34 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  6|2
+total_score: 50/70
+4d3d910
