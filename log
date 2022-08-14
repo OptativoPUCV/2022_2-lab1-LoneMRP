@@ -209,3 +209,16 @@ Sun 14 Aug 2022 03:18:08 AM UTC:
  tests:  6|2
 total_score: 50/70
 c6e5db7
+Sun 14 Aug 2022 03:19:01 AM UTC: 
+ exercises.c | 2 ++
+ 1 file changed, 2 insertions(+)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:116:6: error: invalid type argument of ‘->’ (have ‘Vector’)
+  116 | *c[1]->datos=+*a->datos+*b->datos;
+      |      ^~
+exercises.c:117:6: error: invalid type argument of ‘->’ (have ‘Vector’)
+  117 | *c[2]->datos=+*a->datos+*b->datos;
+      |      ^~
+Compilation failed
+fc1eb56
