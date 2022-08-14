@@ -72,3 +72,15 @@ exercises.c:115:10: error: ‘i’ undeclared (first use in this function)
 exercises.c:115:10: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 2e8f956
+Sun 14 Aug 2022 02:33:41 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:115:18: error: invalid operands to binary + (have ‘int *’ and ‘int *’)
+  115 | c->datos=a->datos+b->datos;
+      |          ~~~~~~~~^~~~~~~~~
+      |           |        |
+      |           int *    int *
+Compilation failed
+aa44111
