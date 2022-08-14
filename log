@@ -664,3 +664,14 @@ exercises.c:116:10: error: assignment to ‘int *’ from incompatible pointer t
 cc1: all warnings being treated as errors
 Compilation failed
 de98370
+Sun 14 Aug 2022 03:39:03 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:116:11: error: assignment to ‘int’ from ‘int **’ makes integer from pointer without a cast [-Werror=int-conversion]
+  116 | *c->datos = &b->datos;
+      |           ^
+cc1: all warnings being treated as errors
+Compilation failed
+06647ec
