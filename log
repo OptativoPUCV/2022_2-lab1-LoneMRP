@@ -235,3 +235,17 @@ exercises.c:117:1: error: invalid type argument of unary ‘*’ (have ‘int’
       | ^~~~~~~~~~~~
 Compilation failed
 39996b7
+Sun 14 Aug 2022 03:21:01 AM UTC: 
+ exercises.c | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:115:20: error: expected ‘;’ before ‘}’ token
+  115 | *c->datos=*a->datos
+      |                    ^
+      |                    ;
+  116 | 
+  117 | }
+      | ~                   
+Compilation failed
+a7ddd70
