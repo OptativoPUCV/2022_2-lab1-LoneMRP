@@ -506,3 +506,16 @@ Sun 14 Aug 2022 03:28:38 AM UTC:
  tests:  6|2
 total_score: 50/70
 e65b3f4
+Sun 14 Aug 2022 03:29:05 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:116:21: error: request for member ‘i’ in something not a structure or union
+  116 | *c->datos= *c->datos.i+*b->datos.i;
+      |                     ^
+exercises.c:116:33: error: request for member ‘i’ in something not a structure or union
+  116 | *c->datos= *c->datos.i+*b->datos.i;
+      |                                 ^
+Compilation failed
+421a03e
