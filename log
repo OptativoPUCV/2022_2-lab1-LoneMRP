@@ -443,3 +443,9 @@ exercises.c:115:10: error: assignment to ‘int’ from ‘int *’ makes intege
 cc1: all warnings being treated as errors
 Compilation failed
 785815b
+Sun 14 Aug 2022 03:26:41 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  6|2
+total_score: 50/70
+77b9045
