@@ -383,3 +383,24 @@ exercises.c:115:9: error: variable ‘x’ set but not used [-Werror=unused-but-
 cc1: all warnings being treated as errors
 Compilation failed
 23fa79b
+Sun 14 Aug 2022 03:24:58 AM UTC: 
+ exercises.c | 1 -
+ 1 file changed, 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:117:10: error: wrong type argument to unary plus
+  117 | c->datos=+b
+      |          ^
+exercises.c:117:12: error: expected ‘;’ before ‘}’ token
+  117 | c->datos=+b
+      |            ^
+      |            ;
+  118 | 
+  119 | }
+      | ~           
+exercises.c:115:9: error: unused variable ‘x’ [-Werror=unused-variable]
+  115 | Vector* x;
+      |         ^
+cc1: all warnings being treated as errors
+Compilation failed
+abc7790
