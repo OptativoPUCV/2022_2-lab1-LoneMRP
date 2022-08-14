@@ -61,3 +61,14 @@ Sun 14 Aug 2022 02:26:27 AM UTC:
  tests:  6|2
 total_score: 50/70
 1407f56
+Sun 14 Aug 2022 02:33:16 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:115:10: error: ‘i’ undeclared (first use in this function)
+  115 | c->datos[i]=a->datos[i]+b->datos[i];
+      |          ^
+exercises.c:115:10: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+2e8f956
