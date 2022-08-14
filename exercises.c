@@ -114,7 +114,7 @@ actualiza el vector `c` con el resultado de la suma.
 void sumaV(Vector * a, Vector * b, Vector * c) {
 Vector* x;
 c->datos=a->datos;
-c->datos=+b
+
 
 }
 

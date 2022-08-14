@@ -404,3 +404,14 @@ exercises.c:115:9: error: unused variable ‘x’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 abc7790
+Sun 14 Aug 2022 03:25:07 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:115:9: error: unused variable ‘x’ [-Werror=unused-variable]
+  115 | Vector* x;
+      |         ^
+cc1: all warnings being treated as errors
+Compilation failed
+3b9cabe
