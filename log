@@ -722,3 +722,9 @@ exercises.c:115:21: error: invalid operands to binary + (have ‘int *’ and �
       |             int *      int *
 Compilation failed
 b07c8fe
+Sun 14 Aug 2022 03:41:33 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  6|2
+total_score: 50/70
+95a69a7
