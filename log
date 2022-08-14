@@ -222,3 +222,16 @@ exercises.c:117:6: error: invalid type argument of ‘->’ (have ‘Vector’)
       |      ^~
 Compilation failed
 fc1eb56
+Sun 14 Aug 2022 03:19:52 AM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:116:1: error: invalid type argument of unary ‘*’ (have ‘int’)
+  116 | *c->datos[1]=+*a->datos+*b->datos;
+      | ^~~~~~~~~~~~
+exercises.c:117:1: error: invalid type argument of unary ‘*’ (have ‘int’)
+  117 | *c->datos[2]=+*a->datos+*b->datos;
+      | ^~~~~~~~~~~~
+Compilation failed
+39996b7

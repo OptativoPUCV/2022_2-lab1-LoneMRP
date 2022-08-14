@@ -113,8 +113,8 @@ actualiza el vector `c` con el resultado de la suma.
 */
 void sumaV(Vector * a, Vector * b, Vector * c) {
 *c->datos=+*a->datos+*b->datos;
-*c[1]->datos=+*a->datos+*b->datos;
-*c[2]->datos=+*a->datos+*b->datos;
+*c->datos[1]=+*a->datos+*b->datos;
+*c->datos[2]=+*a->datos+*b->datos;
 }
 
 /*
