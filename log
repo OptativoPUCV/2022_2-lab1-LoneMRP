@@ -653,3 +653,14 @@ exercises.c:116:11: error: lvalue required as left operand of assignment
       |           ^
 Compilation failed
 94198a0
+Sun 14 Aug 2022 03:38:54 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:116:10: error: assignment to ‘int *’ from incompatible pointer type ‘int **’ [-Werror=incompatible-pointer-types]
+  116 | c->datos = &b->datos;
+      |          ^
+cc1: all warnings being treated as errors
+Compilation failed
+de98370
