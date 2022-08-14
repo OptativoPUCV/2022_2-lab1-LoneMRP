@@ -170,3 +170,13 @@ Sun 14 Aug 2022 03:16:10 AM UTC:
  tests:  6|2
 total_score: 50/70
 0d4f11d
+Sun 14 Aug 2022 03:16:35 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:115:21: error: lvalue required as left operand of assignment
+  115 | *c->datos=+*a->datos=+*b->datos;
+      |                     ^
+Compilation failed
+9a26d31
