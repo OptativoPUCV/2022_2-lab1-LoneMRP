@@ -916,3 +916,9 @@ exercises.c:118:18: error: assignment to ‘int’ from ‘void (*)(int,  int,  
 cc1: all warnings being treated as errors
 Compilation failed
 b8e4d44
+Sun 14 Aug 2022 04:01:10 AM UTC: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  7|1
+total_score: 60/70
+a685ba7
