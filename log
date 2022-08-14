@@ -902,3 +902,17 @@ exercises.c:118:8: error: ‘c’ is a pointer; did you mean to use ‘->’?
       |        ->
 Compilation failed
 3e4dd89
+Sun 14 Aug 2022 03:59:14 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:117:11: error: lvalue required as left operand of assignment
+  117 |       suma=a->datos[i]+b->datos[i];
+      |           ^
+exercises.c:118:18: error: assignment to ‘int’ from ‘void (*)(int,  int,  int *)’ makes integer from pointer without a cast [-Werror=int-conversion]
+  118 |       c->datos[i]=suma;
+      |                  ^
+cc1: all warnings being treated as errors
+Compilation failed
+b8e4d44
