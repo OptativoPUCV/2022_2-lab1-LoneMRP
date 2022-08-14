@@ -798,3 +798,13 @@ exercises.c:115:30: error: expected expression before ‘;’ token
       |                              ^
 Compilation failed
 5f25e53
+Sun 14 Aug 2022 03:44:15 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:115:20: error: wrong type argument to unary plus
+  115 | c->datos= a->datos*+b->datos;
+      |                    ^
+Compilation failed
+4a2bdbc
