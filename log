@@ -740,3 +740,13 @@ exercises.c:115:21: error: invalid operands to binary + (have ‘int *’ and �
       |             int *
 Compilation failed
 b682296
+Sun 14 Aug 2022 03:42:37 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:115:24: error: expected expression before ‘;’ token
+  115 | c->datos= (a->datos)+b*;
+      |                        ^
+Compilation failed
+0b05fac
