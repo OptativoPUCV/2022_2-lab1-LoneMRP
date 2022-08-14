@@ -848,3 +848,25 @@ exercises.c:115:5: error: expected identifier before ‘*’ token
       |     ^
 Compilation failed
 03e3afc
+Sun 14 Aug 2022 03:48:16 AM UTC: 
+ exercises.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:116:11: error: invalid operands to binary + (have ‘int *’ and ‘int *’)
+  116 | n=a->datos+b->datos;
+      |   ~~~~~~~~^~~~~~~~~
+      |    |        |
+      |    int *    int *
+exercises.c:117:11: error: request for member ‘datos’ in something not a structure or union
+  117 | c->datos=n->datos
+      |           ^~
+exercises.c:117:18: error: expected ‘;’ before ‘}’ token
+  117 | c->datos=n->datos
+      |                  ^
+      |                  ;
+......
+  121 | }
+      | ~                 
+Compilation failed
+a5cd421
