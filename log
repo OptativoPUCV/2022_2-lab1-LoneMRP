@@ -643,3 +643,13 @@ exercises.c:116:15: error: expected identifier before ‘&’ token
       |               ^
 Compilation failed
 de10f91
+Sun 14 Aug 2022 03:38:42 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:116:11: error: lvalue required as left operand of assignment
+  116 | &c->datos = &b->datos;
+      |           ^
+Compilation failed
+94198a0
