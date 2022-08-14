@@ -468,3 +468,21 @@ exercises.c:116:28: error: expected ‘;’ before ‘}’ token
       | ~                           
 Compilation failed
 c32c08f
+Sun 14 Aug 2022 03:28:15 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:116:9: error: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+  116 | c->datos= *c->datos+*b->datos
+      |         ^
+exercises.c:116:30: error: expected ‘;’ before ‘}’ token
+  116 | c->datos= *c->datos+*b->datos
+      |                              ^
+      |                              ;
+......
+  119 | }
+      | ~                             
+cc1: all warnings being treated as errors
+Compilation failed
+66b71b6
