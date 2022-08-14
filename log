@@ -449,3 +449,22 @@ Sun 14 Aug 2022 03:26:41 AM UTC:
  tests:  6|2
 total_score: 50/70
 77b9045
+Sun 14 Aug 2022 03:27:34 AM UTC: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:116:19: error: invalid operands to binary + (have ‘int *’ and ‘int *’)
+  116 | c->datos= c->datos+b->datos
+      |           ~~~~~~~~^~~~~~~~~
+      |            |        |
+      |            int *    int *
+exercises.c:116:28: error: expected ‘;’ before ‘}’ token
+  116 | c->datos= c->datos+b->datos
+      |                            ^
+      |                            ;
+......
+  119 | }
+      | ~                           
+Compilation failed
+c32c08f
