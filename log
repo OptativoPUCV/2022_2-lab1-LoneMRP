@@ -104,3 +104,16 @@ exercises.c:115:11: error: invalid operands to binary + (have ‘Vector *’ and
       |           ^
 Compilation failed
 a6f70cc
+Sun 14 Aug 2022 03:12:07 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:115:6: error: wrong type argument to unary plus
+  115 | *c=a*+b*;
+      |      ^
+exercises.c:115:9: error: expected expression before ‘;’ token
+  115 | *c=a*+b*;
+      |         ^
+Compilation failed
+c63b205
