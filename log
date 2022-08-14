@@ -84,3 +84,13 @@ exercises.c:115:18: error: invalid operands to binary + (have ‘int *’ and �
       |           int *    int *
 Compilation failed
 aa44111
+Sun 14 Aug 2022 02:34:50 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:115:4: error: invalid operands to binary + (have ‘Vector *’ and ‘Vector *’)
+  115 | c=a+b;
+      |    ^
+Compilation failed
+b10bd31
