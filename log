@@ -552,3 +552,13 @@ exercises.c:116:12: error: wrong type argument to unary plus
       |            ^
 Compilation failed
 4e2117e
+Sun 14 Aug 2022 03:31:24 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:116:11: error: wrong type argument to unary plus
+  116 | c->datos =+ b->datos;
+      |           ^
+Compilation failed
+ba1935c
