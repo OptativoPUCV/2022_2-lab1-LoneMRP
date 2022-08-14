@@ -681,3 +681,15 @@ Sun 14 Aug 2022 03:39:12 AM UTC:
  tests:  6|2
 total_score: 50/70
 5c36137
+Sun 14 Aug 2022 03:39:49 AM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:115:21: error: invalid operands to binary + (have ‘int *’ and ‘int *’)
+  115 | c->datos= (a->datos)+(b->datos);
+      |           ~~~~~~~~~~^~~~~~~~~~~
+      |             |          |
+      |             int *      int *
+Compilation failed
+9fd777f
