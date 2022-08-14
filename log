@@ -888,3 +888,17 @@ exercises.c:118:8: error: ‘c’ is a pointer; did you mean to use ‘->’?
       |        ->
 Compilation failed
 53b21b3
+Sun 14 Aug 2022 03:59:07 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:117:11: error: lvalue required as left operand of assignment
+  117 |       suma=a->datos[i]+b->datos[i];
+      |           ^
+exercises.c:118:8: error: ‘c’ is a pointer; did you mean to use ‘->’?
+  118 |       c.datos[i]=suma;
+      |        ^
+      |        ->
+Compilation failed
+3e4dd89
