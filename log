@@ -359,3 +359,27 @@ exercises.c:118:12: error: expected ‘;’ before ‘}’ token
 cc1: all warnings being treated as errors
 Compilation failed
 1e07486
+Sun 14 Aug 2022 03:24:51 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:117:2: error: assignment to ‘Vector *’ from incompatible pointer type ‘int *’ [-Werror=incompatible-pointer-types]
+  117 | x=b->datos;
+      |  ^
+exercises.c:118:10: error: wrong type argument to unary plus
+  118 | c->datos=+b
+      |          ^
+exercises.c:118:12: error: expected ‘;’ before ‘}’ token
+  118 | c->datos=+b
+      |            ^
+      |            ;
+  119 | 
+  120 | }
+      | ~           
+exercises.c:115:9: error: variable ‘x’ set but not used [-Werror=unused-but-set-variable]
+  115 | Vector* x;
+      |         ^
+cc1: all warnings being treated as errors
+Compilation failed
+23fa79b
