@@ -762,3 +762,16 @@ exercises.c:115:21: error: invalid operands to binary + (have ‘int *’ and �
       |             int *    Vector
 Compilation failed
 789a49c
+Sun 14 Aug 2022 03:43:31 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:115:15: error: expected identifier before ‘*’ token
+  115 | c->datos= (a->*datos)+b->*datos;
+      |               ^
+exercises.c:115:26: error: expected identifier before ‘*’ token
+  115 | c->datos= (a->*datos)+b->*datos;
+      |                          ^
+Compilation failed
+6b866f1
