@@ -592,3 +592,13 @@ exercises.c:116:4: error: expected identifier before numeric constant
       |    ^
 Compilation failed
 f6e6f53
+Sun 14 Aug 2022 03:32:27 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:116:4: error: expected identifier before ‘*’ token
+  116 | c->*datos =+ b->*datos;
+      |    ^
+Compilation failed
+ad9ca5c
