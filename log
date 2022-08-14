@@ -415,3 +415,9 @@ exercises.c:115:9: error: unused variable ‘x’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 3b9cabe
+Sun 14 Aug 2022 03:25:14 AM UTC: 
+ exercises.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  6|2
+total_score: 50/70
+04ab350
