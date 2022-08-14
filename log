@@ -602,3 +602,18 @@ exercises.c:116:4: error: expected identifier before ‘*’ token
       |    ^
 Compilation failed
 ad9ca5c
+Sun 14 Aug 2022 03:32:55 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:116:2: error: ‘c’ is a pointer; did you mean to use ‘->’?
+  116 | c.datos =+ b.datos;
+      |  ^
+      |  ->
+exercises.c:116:13: error: ‘b’ is a pointer; did you mean to use ‘->’?
+  116 | c.datos =+ b.datos;
+      |             ^
+      |             ->
+Compilation failed
+9e68b7e
